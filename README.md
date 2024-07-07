@@ -8,7 +8,17 @@ This one: <http://8.136.99.126/>
 
 Please refer to this: <http://8.136.99.126/blog/3/667ed5d1bfb9bd49c48885eb>
 
+## What's the code?
+
+The code is for calculating performances and rating.
+
 ## How do I read the data?
+
+### Top Rated
+
+The filename should be `TOP_RATED.md`.
+
+I don't think it necessary to give instructions.
 
 ### Contest List
 
