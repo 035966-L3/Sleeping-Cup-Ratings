@@ -129,8 +129,8 @@ In this example, there are $6$ records (ignored records excluded):
 | Contest ID | Contest Rank | Performance | Old Rating | New Rating | Rating Change | Status |
 | -: | -: | -: | -: | -: | -: | :- |
 | $24$ | $1$ | $1000$ | $343$ | $671$ | $\color{green}+328$ | Everying is fine. |
-| $17$ | $8$ | $300$ | $193$ | $343$ | $\color{green}+50$ | Everying is fine. |
-| $16$ | $3$ | $525$ | $125$ | $193$ | $\color{green}+168$ | Everying is fine. |
+| $17$ | $8$ | $300$ | $293$ | $343$ | $\color{green}+50$ | Everying is fine. |
+| $16$ | $3$ | $525$ | $125$ | $293$ | $\color{green}+168$ | Everying is fine. |
 | $15$ | $17$ | $0$ | $150$ | $125$ | $\color{red}-25$ | Everying is fine. |
 | $10$ | $7$ | $300$ | $0$ | $150$ | $\color{green}+150$ | Everying is fine. |
 | $9$ | $14$ | $0$ | $0$ | $0$ | $\color{gray}0$ | Everying is fine. |
