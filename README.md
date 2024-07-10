@@ -4,6 +4,10 @@
 
 This one: <http://8.136.99.126/>
 
+## Are there any other useful links?
+
+Certainly: <https://github.com/035966-L3/Sleeping-Cup-Testcases>
+
 ## How do you calculate the rating?
 
 Please refer to this: <http://8.136.99.126/blog/3/667ed5d1bfb9bd49c48885eb>
