@@ -107,7 +107,7 @@ In this example, there are $3$ participants (cheaters excluded):
 
 The filename should be `user/N.txt`, where $N$ is the user ID.
 
-e.g. (filename: `contest/20.txt`)
+e.g. (filename: `user/20.txt`)
 
 ```plain
 671
