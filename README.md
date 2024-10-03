@@ -85,6 +85,7 @@ The filename should be `contest/N.txt`, where $N$ is the contest ID.
 e.g. (filename: `contest/7.txt`)
 
 ```plain
+YES
 1 19 1000 343 328 671
 2 13 465 900 -40 860
 2 14 465 525 3 528
@@ -94,7 +95,9 @@ e.g. (filename: `contest/7.txt`)
 
 The example shows the result of the contest with an ID of $7$.
 
-In this example, there are $3$ participants (cheaters excluded):
+In this example, Special Rules are enabled. (according to the first line, `NO` otherwise)
+
+There are $3$ participants (cheaters excluded):
 
 | Rank | User ID | Performance | Old Rating | New Rating | Rating Change | Status |
 | -: | -: | -: | -: | -: | -: | :- |
