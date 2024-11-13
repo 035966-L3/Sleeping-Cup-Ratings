@@ -87,8 +87,8 @@ e.g. (filename: `contest/7.txt`)
 ```plain
 YES
 1 19 1000 343 328 671
-2 13 550 900 -40 860
-2 14 550 525 3 528
+2 13 537 900 -40 860
+2 14 537 525 3 528
 0 18 -1 1144 -9999 0
 -1 -1 -1 -1 -1 -1
 ```
@@ -102,8 +102,8 @@ There are $3$ participants (cheaters excluded):
 | Rank | User ID | Performance | Old Rating | New Rating | Rating Change | Status |
 | -: | -: | -: | -: | -: | -: | :- |
 | $1$ | $19$ | $1000$ | $343$ | $671$ | $\color{green}+328$ | Everying is fine. |
-| $2$ | $13$ | $550$ | $900$ | $860$ | $\color{red}-40$ | Everying is fine. |
-| $2$ | $14$ | $550$ | $525$ | $528$ | $\color{green}+3$ | Everying is fine. |
+| $2$ | $13$ | $537$ | $900$ | $860$ | $\color{red}-40$ | Everying is fine. |
+| $2$ | $14$ | $537$ | $525$ | $528$ | $\color{green}+3$ | Everying is fine. |
 | - | $18$ | - | $1144$ | $0$ | - | **He cheated. His rating is set to $\bf{0}$.** |
 
 ### Participant Competition History
