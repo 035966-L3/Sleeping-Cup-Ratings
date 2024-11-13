@@ -115,14 +115,13 @@ e.g. (filename: `user/20.txt`)
 ```plain
 671
 24 1 1000 343 328 671
-17 8 300 293 50 343
-16 3 525 125 168 293
+17 8 300 325 18 343
+16 3 525 125 200 325
 15 17 0 150 -25 125
 10 7 300 0 150 150
 9 14 0 0 0 0
 6 0 -1 837 -9999 0
 3 1 900 775 62 837
-2 1 1000 550 225 775
 1 1 1100 0 550 550
 -1 -1 -1 -1 -1 -1
 ```
@@ -136,8 +135,8 @@ In this example, there are $6$ records (ignored records excluded):
 | Contest ID | Contest Rank | Performance | Old Rating | New Rating | Rating Change | Status |
 | -: | -: | -: | -: | -: | -: | :- |
 | $24$ | $1$ | $1000$ | $343$ | $671$ | $\color{green}+328$ | Everying is fine. |
-| $17$ | $8$ | $300$ | $293$ | $343$ | $\color{green}+50$ | Everying is fine. |
-| $16$ | $3$ | $525$ | $125$ | $293$ | $\color{green}+168$ | Everying is fine. |
+| $17$ | $8$ | $300$ | $325$ | $343$ | $\color{green}+18$ | Everying is fine. |
+| $16$ | $3$ | $525$ | $125$ | $325$ | $\color{green}+200$ | Everying is fine. |
 | $15$ | $17$ | $0$ | $150$ | $125$ | $\color{red}-25$ | Everying is fine. |
 | $10$ | $7$ | $300$ | $0$ | $150$ | $\color{green}+150$ | Everying is fine. |
 | $9$ | $14$ | $0$ | $0$ | $0$ | $\color{gray}0$ | Everying is fine. |
