@@ -128,7 +128,7 @@ e.g. (filename: `user/20.txt`)
 
 The example shows the competition history of the user with an ID of $20$.
 
-Currently, the rating of the user is $671$.
+Currently, the rating of the user is $671$. (It will be $-1$ if the user is banned.)
 
 In this example, there are $6$ records (ignored records excluded):
 
