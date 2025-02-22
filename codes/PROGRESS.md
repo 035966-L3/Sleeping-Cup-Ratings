@@ -1,4 +1,4 @@
-- [ ] Fetch usernames
+- [x] Fetch usernames
 - [ ] Convert CSV files
 - [ ] Calculate performances
 - [ ] Calculate and update ratings
