@@ -1,4 +1,4 @@
-// Step 3: Calculate Performances
+// Step 3: Calculate performances
 // Command: 3_calculate_performances [SPECIAL_RULES_"YES"/"NO"]
 #include <bits/stdc++.h>
 using namespace std;
@@ -32,7 +32,7 @@ int main(int argc, char** argv)
         if (arg == "NO")
         {
             stringstream temp;
-            temp << "../user/" << cur.place << ".txt\n";
+            temp << "../user/" << cur.uid << ".txt\n";
             string archive;
             temp >> archive;
             ifstream f3(archive.c_str());
