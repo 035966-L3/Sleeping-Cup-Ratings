@@ -22,7 +22,7 @@ pair<int, string> dispose(string cur)
 }
 int main(int argc, char** argv)
 {
-    ifstream f1("list.txt");
+    ifstream f1("../list.txt");
     string cur;
     string lists = "";
     int cid = 1;
@@ -34,7 +34,7 @@ int main(int argc, char** argv)
     }
     lists += argv[1];
     f1.close();
-    ofstream f2("list.txt");
+    ofstream f2("../list.txt");
     f2 << lists << "\n!\n";
     f2.close();
     map<string, int> dict;
