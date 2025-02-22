@@ -1,0 +1,7 @@
+- [ ] Fetch usernames
+- [ ] Convert CSV files
+- [ ] Calculate performances
+- [ ] Calculate and update ratings
+- [ ] Create contest record
+- [ ] Update leaderboards
+- [ ] *Overall commands*
