@@ -34,7 +34,7 @@ int main(int argc, char** argv)
     }
     lists += argv[1];
     f1.close();
-    ofstream f2("../list.txt");
+    ofstream f2("../list.txt", ios::out | ios::binary);
     f2 << lists << "\n!\n";
     f2.close();
     map<string, int> dict;
@@ -48,7 +48,7 @@ int main(int argc, char** argv)
     }
     f3.close();
     ifstream f4(argv[2]);
-    ofstream f5("standings.txt");
+    ofstream f5("standings.txt", ios::out | ios::binary);
     getline(f4, cur);
     f5 << cid << '\n';
     int count = 0;

@@ -12,21 +12,24 @@ struct Participant
 };
 int main(int argc, char** argv)
 {
+    int arglen = strlen(argv[1]);
+    string arg = "";
+    for (int i = 0; i <= arglen - 1; i++)
+        arg += argv[1][i];
     ifstream f1("standings.txt");
     vector<Participant> records;
     priority_queue<int> ratings;
     Participant cur = (Participant) {0, 0, 0, 0, 0};
-    records.push(cur);
+    records.push_back(cur);
     int cid;
-    f1 << cid;
-    f2 << cid << '\n';
+    f1 >> cid;
     int count = 0;
     while (f1 >> cur.place >> cur.uid)
     {
         if (cur.place == -1) break;
         count++;
-        records.push(cur);
-        if (argv[1] == "NO")
+        records.push_back(cur);
+        if (arg == "NO")
         {
             stringstream temp;
             temp << "../user/" << cur.place << ".txt\n";
@@ -40,12 +43,12 @@ int main(int argc, char** argv)
         }
     }
     f1.close();
-    if (argv[1] == "YES")
+    if (arg == "YES")
     {
         for (int i = 1; i <= count; i++)
-            records[i].S = 1000 * (count + 1 - i) / count;
+            records[i].S = 1000 * (count + 1 - records[i].place) / count;
     }
-    if (argv[1] == "NO")
+    if (arg == "NO")
     {
         for (int i = 1; i <= count; i++)
         {
@@ -55,14 +58,19 @@ int main(int argc, char** argv)
             if (delta == 0) records[i].S = records[i - 1].S;
         }
     }
-    ofstream f2("performances.txt");
+    ofstream f2("performances.txt", ios::out | ios::binary);
+    f2 << arg << '\n';
+    f2 << cid << '\n';
+    printf("[Contest #%d, Special Rules: %s]\n", cid, arg.c_str());
     for (int i = 1; i <= count; i++)
     {
         f2 << records[i].place << ' ' << records[i].uid << ' ';
+	printf("Rank %d (UID = %d): ", records[i].place, records[i].uid);
         long double ratio = log(records[i].place) / log(count + 1);
-        records[i].T = floor((records[1].S + 200) * ratio);
+        records[i].T = floor((records[1].S + 200) * (1 - ratio));
         records[i].P = (records[i].S + records[i].T) / 2;
         f2 << records[i].P << '\n';
+	printf("Performance is %d\n", records[i].P);
     }
     f2.close();
     return 0;
