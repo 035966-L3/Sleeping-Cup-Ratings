@@ -1,5 +1,5 @@
 // Step 2: Dispose original CSV leaderboard
-// Command: convert_csv_files [CONTEST_NAME] [CSV_FILENAME]
+// Command: 2_convert_csv_files [CONTEST_NAME] [CSV_FILENAME]
 #include <bits/stdc++.h>
 using namespace std;
 pair<int, string> dispose(string cur)
