@@ -1,6 +1,6 @@
 - [x] Fetch usernames
 - [x] Convert CSV files
-- [ ] Calculate performances
+- [x] Calculate performances
 - [ ] Calculate and update ratings
 - [ ] Create contest record
 - [ ] Update leaderboards
