@@ -1,5 +1,5 @@
 // Step 1: Create username dictionary
-// Command: node fetch_usernames.js
+// Command: node 1_fetch_usernames.js
 import fs from 'fs'
 async function f(uid)
 {
