@@ -18,6 +18,8 @@ The code is for calculating performances and rating.
 
 Please read `codes/commands.bat` or `codes/commands.sh` for more information.
 
+Note that cheaters have to be added manually.
+
 ## How do I read the data?
 
 ### Top Rated
