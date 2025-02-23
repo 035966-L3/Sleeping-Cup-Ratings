@@ -16,6 +16,8 @@ Please refer to this: <http://8.136.99.126/blog/3/667ed5d1bfb9bd49c48885eb>
 
 The code is for calculating performances and rating.
 
+Please read `codes/commands.bat` or `codes/commands.sh` for more information.
+
 ## How do I read the data?
 
 ### Top Rated
