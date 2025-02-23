@@ -18,7 +18,7 @@ int main(int argc, char** argv)
         arg += argv[1][i];
     ifstream f1("standings.txt");
     vector<Participant> records;
-    priority_queue<int> ratings;
+    priority_queue<int> sort_agent;
     Participant cur = (Participant) {0, 0, 0, 0, 0};
     records.push_back(cur);
     int cid;
@@ -38,7 +38,7 @@ int main(int argc, char** argv)
             ifstream f3(archive.c_str());
             int rating = 0;
             if (f3) f3 >> rating;
-            ratings.push(rating);
+            sort_agent.push(rating);
             f3.close();
         }
     }
@@ -52,8 +52,8 @@ int main(int argc, char** argv)
     {
         for (int i = 1; i <= count; i++)
         {
-            records[i].S = ratings.top();
-            ratings.pop();
+            records[i].S = sort_agent.top();
+            sort_agent.pop();
             int delta = records[i].place - records[i - 1].place;
             if (delta == 0) records[i].S = records[i - 1].S;
         }

@@ -1,6 +1,0 @@
-- [x] Fetch usernames
-- [x] Convert CSV files
-- [x] Calculate performances
-- [x] Update ratings and records
-- [ ] Roll ranks and leaderboards
-- [ ] *Appendix: overall commands*
