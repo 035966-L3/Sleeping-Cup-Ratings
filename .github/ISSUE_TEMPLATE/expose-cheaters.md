@@ -9,8 +9,8 @@ assignees: ''
 
 ## Information
 
-- **Contest ID/Name:** ________
-- **Cheater ID(s)/Name(s):** ________
+- **Contest ID/Name:** *e.g. 1/Sleeping Cup #1*
+- **Cheater ID(s)/Name(s):** *e.g. 18/polygon*
 
 ## Evidence
 

@@ -9,8 +9,8 @@ assignees: ''
 
 ## Information
 
-- **Contest ID/Name:** ________
-- **Affected User ID(s)/Name(s):** ________
+- **Contest ID/Name:** *e.g. 4/Sleeping Cup #4 (Happy birthday, Sleeping Cup!)*
+- **Cheater ID(s)/Name(s):** *e.g. 63/So_noSlack*
 
 ## Details
 
