@@ -1,6 +1,6 @@
 ---
 name: Expose Cheaters
-about: Use this in case of seizing any evidence of unpunished cheating.
+about: Use this in case of seizing any evidence of unpunished cheaters.
 title: ''
 labels: ''
 assignees: ''
