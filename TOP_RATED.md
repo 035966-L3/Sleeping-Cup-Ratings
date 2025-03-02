@@ -1,3 +1,14 @@
 | Rank | Username | Rating |
 | -: | -: | -: |
 | $1$ | [cmw_ns](http://8.136.99.126/user/11) | $\color{#ff0000}825$ |
+| $2$ | [nr0728](http://8.136.99.126/user/20) | $\color{#c0c000}550$ |
+| $3$ | [yeshouxianbei](http://8.136.99.126/user/52) | $\color{#0000ff}443$ |
+| $4$ | [Question_Mark](http://8.136.99.126/user/50) | $\color{#00c0c0}371$ |
+| $5$ | [dzy1024](http://8.136.99.126/user/57) | $\color{#00c0c0}314$ |
+| $5$ | [KaXdd_](http://8.136.99.126/user/54) | $\color{#00c0c0}314$ |
+| $7$ | [Eason_cyx](http://8.136.99.126/user/56) | $\color{#008000}219$ |
+| $7$ | [jxy2012](http://8.136.99.126/user/53) | $\color{#008000}219$ |
+| $7$ | [Fantasy_with_Light](http://8.136.99.126/user/48) | $\color{#008000}219$ |
+| $10$ | [So_noSlack](http://8.136.99.126/user/63) | $\color{#804000}102$ |
+| $11$ | [calgary](http://8.136.99.126/user/60) | $\color{#808080}67$ |
+| $11$ | [Drifty](http://8.136.99.126/user/13) | $\color{#808080}67$ |
