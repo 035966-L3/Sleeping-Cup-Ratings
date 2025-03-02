@@ -98,6 +98,7 @@ int main()
         printf("%d (%d -> %d)\n", abs(delta), old_rating, R);
         f6.close();
     }
+    f2 << "-1 -1 -1 -1 -1 -1\n";
     f1.close();
     f2.close();
     return 0;
