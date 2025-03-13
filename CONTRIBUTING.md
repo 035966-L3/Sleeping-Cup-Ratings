@@ -7,4 +7,4 @@ The following contributions are permitted:
 
 - Report bugs in the codes.
 - Add more codes for automation.
-- Design a new rating systems.
+- Design new rating systems.
