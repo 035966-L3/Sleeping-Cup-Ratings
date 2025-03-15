@@ -1,0 +1,21 @@
+name: Report incorrect rating calculations
+description: Use this in case of discovering any incorrect rating calculations.
+body:
+  - type: input
+    attributes:
+      label: Contest ID/Name
+      placeholder: 'e.g. 4/Sleeping Cup #4 (Happy birthday, Sleeping Cup!)'
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Cheater ID(s)/Name(s)
+      placeholder: 'e.g. 63/So_noSlack'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Details
+      placeholder: 'Example: The performance of that guy should be 1100 instead of 925!'
+    validations:
+      required: true
