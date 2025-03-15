@@ -4,13 +4,13 @@ body:
   - type: input
     attributes:
       label: Contest ID/Name
-      placeholder: '*e.g. 1/Sleeping Cup #1*'
+      placeholder: 'e.g. 1/Sleeping Cup #1'
     validations:
       required: true
   - type: input
     attributes:
       label: Cheater ID(s)/Name(s)
-      placeholder: '*e.g. 18/polygon*'
+      placeholder: 'e.g. 18/polygon'
     validations:
       required: true
   - type: textarea
