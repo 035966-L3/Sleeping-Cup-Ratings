@@ -17,6 +17,6 @@ body:
   - type: textarea
     attributes:
       label: Evidence
-      placeholder: Example: The A solution of that guy is just identical to that given by DeepSeek R1!
+      placeholder: 'Example: The A solution of that guy is just identical to that given by DeepSeek R1!'
     validations:
       required: true
