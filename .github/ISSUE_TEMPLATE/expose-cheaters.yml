@@ -1,0 +1,22 @@
+name: Expose Cheaters
+description: Use this in case of seizing any evidence of unpunished cheaters.
+labels: [bug]
+body:
+  - type: input
+    attributes:
+      label: Contest ID/Name
+      placeholder: e.g. 1/Sleeping Cup #1
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Cheater ID(s)/Name(s)
+      placeholder: e.g. 18/polygone.g. Chrome 94
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence
+      placeholder: Example: The A solution of that guy is just identical to that given by DeepSeek R1!
+    validations:
+      required: true
