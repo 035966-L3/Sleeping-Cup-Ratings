@@ -108,7 +108,7 @@ There are $3$ participants (cheaters excluded):
 | $1$ | $19$ | $1000$ | $343$ | $671$ | $\color{green}+328$ | Everying is fine. |
 | $2$ | $13$ | $537$ | $900$ | $860$ | $\color{red}-40$ | Everying is fine. |
 | $2$ | $14$ | $537$ | $525$ | $528$ | $\color{green}+3$ | Everying is fine. |
-| - | $18$ | - | $1144$ | $0$ | - | **He cheated. His rating is set to $\bf{0}$.** |
+| - | $18$ | - | $1144$ | $0$ | - | **They cheated. Their rating is set to $\bm{0}$.** |
 
 ### Participant Competition History
 
