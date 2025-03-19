@@ -108,7 +108,7 @@ There are $3$ participants (cheaters excluded):
 | $1$ | $19$ | $1000$ | $343$ | $671$ | $\color{green}+328$ | Everying is fine. |
 | $2$ | $13$ | $537$ | $900$ | $860$ | $\color{red}-40$ | Everying is fine. |
 | $2$ | $14$ | $537$ | $525$ | $528$ | $\color{green}+3$ | Everying is fine. |
-| - | $18$ | - | $1144$ | $0$ | - | **The user's rating is set to $\bm{0}$ because of cheating.** |
+| - | $18$ | - | $1144$ | $0$ | - | **The user's rating is set to $\bf{0}$ because of cheating.** |
 
 ### Participant Competition History
 
@@ -144,7 +144,7 @@ In this example, there are $6$ records (ignored records excluded):
 | $15$ | $17$ | $0$ | $150$ | $125$ | $\color{red}-25$ | Everying is fine. |
 | $10$ | $7$ | $300$ | $0$ | $150$ | $\color{green}+150$ | Everying is fine. |
 | $9$ | $14$ | $0$ | $0$ | $0$ | $\color{gray}0$ | Everying is fine. |
-| $6$ | - | - | $837$ | $0$ | - | **The user's rating is set to $\bm{0}$ because of cheating.** |
+| $6$ | - | - | $837$ | $0$ | - | **The user's rating is set to $\bf{0}$ because of cheating.** |
 | $3$ | - | - | - | - | - | **This record is ignored because of the punishment for cheating.** |
 | $2$ | - | - | - | - | - | **This record is ignored because of the punishment for cheating.** |
 | $1$ | - | - | - | - | - | **This record is ignored because of the punishment for cheating.** |
