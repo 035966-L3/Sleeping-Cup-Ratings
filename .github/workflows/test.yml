@@ -1,4 +1,4 @@
-name: [Test] Update Usernames
+name: Test
 on:
   schedule:
     - cron: "5 7 * * *"
