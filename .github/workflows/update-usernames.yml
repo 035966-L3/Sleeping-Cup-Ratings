@@ -1,0 +1,27 @@
+name: Update Usernames Daily
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  update-usernames:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      - name: Install dependencies
+        run: npm install
+      - name: Run fetch_usernames.mjs
+        run: node fetch_usernames.mjs
+      - name: Commit and push changes
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add usernames.txt
+          git commit -m "Auto update usernames.txt" || echo "No changes to commit"
+          git push origin main
