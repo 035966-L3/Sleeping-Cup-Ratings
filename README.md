@@ -56,6 +56,8 @@ In this example, $5$ users are listed:
 
 It is self-evident that when this list was last updated.
 
+Note that we have set a workflow that updates this list every Saturday at 23:45 UTC.
+
 ### Contest List
 
 The filename should be `list.txt`.
