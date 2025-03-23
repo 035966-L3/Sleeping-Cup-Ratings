@@ -1,7 +1,7 @@
 name: Test
 on:
   schedule:
-    - cron: "7 7 * * *"
+    - cron: "8 7 * * *"
 jobs:
   update-usernames:
     runs-on: ubuntu-latest
