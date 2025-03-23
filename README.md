@@ -41,7 +41,7 @@ Chlorine
 Zinc
 Tungsten
 
-// Updated at: Sun Jun 30 2024 21:29:35 GMT+0800 (中国标准时间)
+// Updated at: Sun Jun 30 2024 13:29:35 GMT+0000 (Coordinated Universal Time)
 ```
 
 In this example, $5$ users are listed:
