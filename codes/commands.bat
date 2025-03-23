@@ -9,15 +9,15 @@
 :: COMMAND FORMAT:
 :: commands.bat [CONTEST_NAME] [CSV_FILENAME] [SPECIAL_RULES_"YES"/"NO"]
 
-g++ 2_convert_csv_files.cpp -o 2_convert_csv_files
-g++ 3_calculate_performances.cpp -o 3_calculate_performances
-g++ 4_update_ratings_and_reports.cpp -o 4_update_ratings_and_reports
-g++ 5_roll_ranks_and_leaderboards.cpp -o 5_roll_ranks_and_leaderboards
-node 1_fetch_usernames.js
-2_convert_csv_files %1 %2
-3_calculate_performances %3
-4_update_ratings_and_reports
-5_roll_ranks_and_leaderboards
+g++ 1_convert_csv_files.cpp -o 1_convert_csv_files
+g++ 2_calculate_performances.cpp -o 2_calculate_performances
+g++ 3_update_ratings_and_reports.cpp -o 3_update_ratings_and_reports
+g++ 4_roll_ranks_and_leaderboards.cpp -o 4_roll_ranks_and_leaderboards
+node ../fetch_usernames.mjs
+1_convert_csv_files %1 %2
+2_calculate_performances %3
+3_update_ratings_and_reports
+4_roll_ranks_and_leaderboards
 del *.txt
 del *.exe
 del %2

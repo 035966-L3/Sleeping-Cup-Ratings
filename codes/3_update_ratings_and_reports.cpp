@@ -1,5 +1,5 @@
-// Step 4: Calculate ratings and generate contest reports
-// Command: 4_update_ratings_and_reports
+// Step 3: Calculate ratings and generate contest reports
+// Command: 3_update_ratings_and_reports
 #include <bits/stdc++.h>
 using namespace std;
 int main()

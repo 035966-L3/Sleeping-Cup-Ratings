@@ -1,5 +1,5 @@
-// Step 5: Update rating leaderboards and generate TOP_RATED.md
-// Command: 5_roll_ranks_and_leaderboards
+// Step 4: Update rating leaderboards and generate TOP_RATED.md
+// Command: 4_roll_ranks_and_leaderboards
 #include <bits/stdc++.h>
 using namespace std;
 const char* colors[8] =
@@ -60,12 +60,12 @@ int main()
 	for (map<int, int>::iterator i = ratings.begin(); i != ratings.end(); i++)
 		sort_agent.push((User) {i -> first, i -> second});
 	map<int, string> dict;
-	ifstream f4("usernames.txt");
+	ifstream f4("../usernames.txt");
 	string cur;
 	int uid_count = 1;
 	while (getline(f4, cur))
 	{
-		if (cur == "!") break;
+		if (cur == "") break;
 		dict[uid_count] = cur;
 		uid_count++;
 	}

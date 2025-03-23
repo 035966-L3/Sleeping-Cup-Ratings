@@ -1,5 +1,6 @@
-// Step 1: Create username dictionary
-// Command: node 1_fetch_usernames.js
+// Create username dictionary
+// Command: node ../fetch_usernames.mjs
+// You must PLACE this OUT OF the 'codes' directory and CALL this IN the 'codes' directory!
 import fs from 'fs'
 async function f(uid)
 {
@@ -41,15 +42,17 @@ async function f(uid)
     if (user == null) return '';
     return user.uname;
 }
-fs.writeFileSync('usernames.txt', '');
+fs.writeFileSync('../usernames.txt', '');
 let names = await f(1);
 let index = 1;
 while (names != '')
 {
-    fs.appendFileSync('usernames.txt', `${names}\n`);
+    fs.appendFileSync('../usernames.txt', `${names}\n`);
     index = index + 1;
     names = await f(index);
 }
-fs.appendFileSync('usernames.txt', `!\n`);
+fs.appendFileSync('../usernames.txt', `\n`);
+let now = new Date();
+fs.appendFileSync('../usernames.txt', `// Updated at: ${now.toString()}\n`);
 index = index - 1;
 console.log(`OK! ${index} registered users detected.`);

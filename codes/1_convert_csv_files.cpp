@@ -1,5 +1,5 @@
-// Step 2: Dispose original CSV leaderboard
-// Command: 2_convert_csv_files [CONTEST_NAME] [CSV_FILENAME]
+// Step 1: Dispose original CSV leaderboard
+// Command: 1_convert_csv_files [CONTEST_NAME] [CSV_FILENAME]
 #include <bits/stdc++.h>
 using namespace std;
 pair<int, string> dispose(string cur)
@@ -38,11 +38,11 @@ int main(int argc, char** argv)
     f2 << lists << "\n!\n";
     f2.close();
     map<string, int> dict;
-    ifstream f3("usernames.txt");
+    ifstream f3("../usernames.txt");
     int uid = 1;
     while (getline(f3, cur))
     {
-        if (cur == "!") break;
+        if (cur == "") break;
         dict[cur] = uid;
         uid++;
     }

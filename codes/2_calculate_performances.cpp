@@ -1,5 +1,5 @@
-// Step 3: Calculate performances
-// Command: 3_calculate_performances [SPECIAL_RULES_"YES"/"NO"]
+// Step 2: Calculate performances
+// Command: 2_calculate_performances [SPECIAL_RULES_"YES"/"NO"]
 #include <bits/stdc++.h>
 using namespace std;
 struct Participant

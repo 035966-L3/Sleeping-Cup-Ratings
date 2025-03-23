@@ -28,6 +28,34 @@ The filename should be `TOP_RATED.md`.
 
 I don't think it necessary to give instructions.
 
+### Username List
+
+The filename should be `usernames.txt`.
+
+e.g. (filename: `usernames.txt`)
+
+```plain
+Sulfur
+Helium
+Chlorine
+Zinc
+Tungsten
+
+// Updated at: Sun Jun 30 2024 21:29:35 GMT+0800 (中国标准时间)
+```
+
+In this example, $5$ users are listed:
+
+| ID | Username |
+| -: | :- |
+| $1$ | Sulfur |
+| $2$ | Helium |
+| $3$ | Chlorine |
+| $4$ | Zinc |
+| $5$ | Tungsten |
+
+It is self-evident that when this list was last updated.
+
 ### Contest List
 
 The filename should be `list.txt`.
