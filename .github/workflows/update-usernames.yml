@@ -1,4 +1,4 @@
-name: Update Usernames Daily
+name: Update Usernames Weekly
 on:
   schedule:
     - cron: "45 23 * * 6"
@@ -14,8 +14,8 @@ jobs:
           node-version: "18"
       - name: Install dependencies
         run: npm install
-      - name: Run fetch_usernames.mjs
-        run: node fetch_usernames.mjs
+      - name: Run fetch_usernames_regularly.mjs
+        run: node fetch_usernames_regularly.mjs
       - name: Commit and push changes
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
