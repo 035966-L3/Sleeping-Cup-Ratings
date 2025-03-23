@@ -12,8 +12,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-      - name: Install dependencies
-        run: npm install
       - name: Run fetch_usernames_regularly.mjs
         run: node fetch_usernames_regularly.mjs
       - name: Commit and push changes
