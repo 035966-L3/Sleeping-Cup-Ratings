@@ -50,6 +50,7 @@ while (names != '')
     fs.appendFileSync('usernames.txt', `${names}\n`);
     index = index + 1;
     names = await f(index);
+    if (index % 75 === 0) await new Promise(resolve => setTimeout(resolve, 5000));
 }
 fs.appendFileSync('usernames.txt', `\n`);
 let now = new Date();
