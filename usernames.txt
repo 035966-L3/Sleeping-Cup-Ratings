@@ -4,7 +4,7 @@ cq_irritater
 test
 testing
 upding
-Banned7
+acm0
 i_Kirito
 xltx2002
 gza
@@ -65,7 +65,7 @@ Banned64
 writer_xyz
 Silver_Lighting
 Banned67
-acm000
+Banned68
 wei1990913
 Banned70
 Banned71
@@ -108,5 +108,7 @@ qwq123
 User108
 LiQ
 chenzaiyu
+chu_yh
+xzy
 
-// Updated at: Sat Jun 28 2025 23:47:21 GMT+0000 (Coordinated Universal Time)
+// Updated at: Sat Jul 05 2025 23:48:32 GMT+0000 (Coordinated Universal Time)
