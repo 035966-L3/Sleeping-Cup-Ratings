@@ -1,7 +1,7 @@
 | Rank | Username | Rating |
 | -: | -: | -: |
 | $1$ | [cmw_ns](http://8.136.99.126/user/11) | $\color{#ff0000}849$ |
-| $2$ | [nr0728](http://8.136.99.126/user/20) | $\color{#ff0000}825$ |
+| $2$ | [Murasame](http://8.136.99.126/user/20) | $\color{#ff0000}825$ |
 | $3$ | [jxy2012](http://8.136.99.126/user/53) | $\color{#c0c000}510$ |
 | $4$ | [yeshouxianbei](http://8.136.99.126/user/52) | $\color{#0000ff}443$ |
 | $5$ | [Question_Mark](http://8.136.99.126/user/50) | $\color{#00c0c0}371$ |
