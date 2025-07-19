@@ -1,5 +1,5 @@
 SleepingCup
-cq_irritater
+cirrationaler
 035966_L3
 test
 testing
@@ -114,5 +114,6 @@ Jasoncwx
 xor_bitset
 CB_X2_Jun
 LatitudeCrosser
+Banned117
 
-// Updated at: Sat Jul 12 2025 23:50:20 GMT+0000 (Coordinated Universal Time)
+// Updated at: Sat Jul 19 2025 23:51:21 GMT+0000 (Coordinated Universal Time)
