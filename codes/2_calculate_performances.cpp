@@ -9,6 +9,7 @@ struct Participant
     int S;
     int T;
     int P;
+    bool is_new;
 };
 int main(int argc, char** argv)
 {
@@ -19,7 +20,8 @@ int main(int argc, char** argv)
     ifstream f1("standings.txt");
     vector<Participant> records;
     priority_queue<int> sort_agent;
-    Participant cur = (Participant) {0, 0, 0, 0, 0};
+    sort_agent.push(0);
+    Participant cur = (Participant) {0, 0, 0, 0, 0, true};
     records.push_back(cur);
     int cid;
     f1 >> cid;
@@ -28,19 +30,35 @@ int main(int argc, char** argv)
     {
         if (cur.place == -1) break;
         count++;
-        records.push_back(cur);
         if (arg == "NO")
         {
+            cur.is_new = true;
             stringstream temp;
             temp << "../user/" << cur.uid << ".txt\n";
             string archive;
             temp >> archive;
             ifstream f3(archive.c_str());
             int rating = 0;
-            if (f3) f3 >> rating;
-            sort_agent.push(rating);
+            int quality = 0;
+            int contests = -1;
+            if (f3)
+            {
+                if (f3 >> rating)
+                {
+                    cur.is_new = false;
+                    while (getline(f3, archive))
+                    {
+                        if (archive[0] == '-') break;
+                        contests++;
+                    }
+                    if (contests <= 15) quality = rating * (1 << contests) / ((1 << contests) - 1);
+                    else quality = rating;
+                }
+            }
+            sort_agent.push(quality);
             f3.close();
         }
+        records.push_back(cur);
     }
     f1.close();
     if (arg == "YES")
@@ -50,12 +68,24 @@ int main(int argc, char** argv)
     }
     if (arg == "NO")
     {
+        int last_S = sort_agent.top();
         for (int i = 1; i <= count; i++)
         {
-            records[i].S = sort_agent.top();
-            sort_agent.pop();
-            int delta = records[i].place - records[i - 1].place;
-            if (delta == 0) records[i].S = records[i - 1].S;
+            int now = 1;
+            while (i < count && records[i + 1].place == records[i].place)
+            {
+                now++;
+                count++;
+            }
+            for (int j = i - now + 1; j <= i; j++)
+                if (!records[j].is_new) last_S = sort_agent.top();
+            for (int j = i - now + 1; j <= i; j++)
+            {
+                if (!records[j].is_new) records[j].S = sort_agent.top();
+                else records[j].S = last_S;
+            }
+            for (int j = i - now + 1; j <= i; j++)
+                if (!records[j].is_new) sort_agent.pop();
         }
     }
     ofstream f2("performances.txt", ios::out | ios::binary);
