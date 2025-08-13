@@ -75,6 +75,7 @@ int main()
         int R = 0;
         for (int i = count; i >= 1; i--)
             R = (R + Z[i]) / 2;
+        R = max(R, 1);
         int delta = R - old_rating;
         ifstream f5(archive.c_str());
         string lines;
