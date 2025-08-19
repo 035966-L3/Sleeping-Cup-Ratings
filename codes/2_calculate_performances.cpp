@@ -75,7 +75,7 @@ int main(int argc, char** argv)
             while (i < count && records[i + 1].place == records[i].place)
             {
                 now++;
-                count++;
+                i++;
             }
             for (int j = i - now + 1; j <= i; j++)
                 if (!records[j].is_new) last_S = sort_agent.top();
