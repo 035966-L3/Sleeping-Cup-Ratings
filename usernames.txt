@@ -6,7 +6,7 @@ testing
 upding
 acm0
 i_Kirito
-xltx2002
+xltx2012
 gza
 cmw_ns
 tder
@@ -101,7 +101,7 @@ Internet Explorer 14
 Prublate
 Cmq
 Chenhaoqi
-o3-pro Tester
+AI_Tester
 gapeqi
 xglight
 qwq123
@@ -175,4 +175,13 @@ Tachanka233
 chenlinxuan0226
 MingDynasty
 wawatime
+Banned178
+run_away
+pies_0x
+Banned181
+llzzmm645
+lowtune
+liuzimo
+ladyindream
+SQKS2009
 
