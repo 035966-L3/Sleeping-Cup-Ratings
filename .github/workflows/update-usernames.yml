@@ -8,12 +8,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v4
-        with:
-          node-version: "18"
-      - name: Run fetch_usernames_regularly.mjs
-        run: node fetch_usernames_regularly.mjs
+      - name: Set up Python
+        uses: actions/setup-python@v5
+      - name: Run fetch_usernames_regularly.py
+        run: python fetch_usernames_regularly.py
       - name: Commit and push changes
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}

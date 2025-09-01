@@ -1,6 +1,6 @@
 :: WARNINGS:
 :: These commands are for Windows only.
-:: You need G++ tools to run them.
+:: You need G++ and Python tools to run them.
 :: They should be run in the 'codes' directory.
 :: Remember to replace the string in brackets.
 :: Drag the CSV file here before running.
@@ -13,6 +13,7 @@ g++ 1_convert_csv_files.cpp -o 1_convert_csv_files
 g++ 2_calculate_performances.cpp -o 2_calculate_performances
 g++ 3_update_ratings_and_reports.cpp -o 3_update_ratings_and_reports
 g++ 4_roll_ranks_and_leaderboards.cpp -o 4_roll_ranks_and_leaderboards
+python ../fetch_usernames_irregularly.py
 1_convert_csv_files %1 %2
 2_calculate_performances %3
 3_update_ratings_and_reports
