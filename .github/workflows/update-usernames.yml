@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
-      - name: name: Install lxml
+      - name: Install lxml
         run: pip install lxml
       - name: Run fetch_usernames_regularly.py
         run: python fetch_usernames_regularly.py
