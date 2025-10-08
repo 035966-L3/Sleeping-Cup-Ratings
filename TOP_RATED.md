@@ -2,7 +2,7 @@
 | -: | -: | -: |
 | $1$ | [Murasame](http://8.136.99.126/user/20) | $\color{#ff0000}1053$ |
 | $2$ | [AI_Tester](http://8.136.99.126/user/104) | $\color{#ff0000}975$ |
-| $3$ | [CuteChat](http://8.136.99.126/user/18) | $\color{#ff8000}691$ |
+| $3$ | [CuteChat](http://8.136.99.126/user/18) | $\color{#ff8000}692$ |
 | $4$ | [Eason_cyx](http://8.136.99.126/user/56) | $\color{#c0c000}589$ |
 | $5$ | [cmw_ns](http://8.136.99.126/user/11) | $\color{#0000ff}412$ |
 | $6$ | [yangrenrui](http://8.136.99.126/user/39) | $\color{#0000ff}411$ |
@@ -19,11 +19,12 @@
 | $17$ | [GavinCQTD](http://8.136.99.126/user/77) | $\color{#804000}174$ |
 | $17$ | [j27eGU](http://8.136.99.126/user/75) | $\color{#804000}174$ |
 | $19$ | [koukilee](http://8.136.99.126/user/144) | $\color{#804000}160$ |
-| $20$ | [CB_X2_Jun](http://8.136.99.126/user/115) | $\color{#808080}93$ |
-| $20$ | [xhabc66](http://8.136.99.126/user/94) | $\color{#808080}93$ |
-| $22$ | [Gilbert1206](http://8.136.99.126/user/153) | $\color{#808080}88$ |
-| $23$ | [So_noSlack](http://8.136.99.126/user/63) | $\color{#808080}84$ |
-| $24$ | [Internet Explorer 14](http://8.136.99.126/user/100) | $\color{#808080}73$ |
-| $25$ | [C24liukaiwen](http://8.136.99.126/user/118) | $\color{#808080}59$ |
-| $26$ | [calgary](http://8.136.99.126/user/60) | $\color{#808080}55$ |
-| $26$ | [Drifty](http://8.136.99.126/user/13) | $\color{#808080}55$ |
+| $20$ | [Dark_Space](http://8.136.99.126/user/206) | $\color{#804000}145$ |
+| $21$ | [CB_X2_Jun](http://8.136.99.126/user/115) | $\color{#808080}93$ |
+| $21$ | [xhabc66](http://8.136.99.126/user/94) | $\color{#808080}93$ |
+| $23$ | [Gilbert1206](http://8.136.99.126/user/153) | $\color{#808080}88$ |
+| $24$ | [So_noSlack](http://8.136.99.126/user/63) | $\color{#808080}84$ |
+| $25$ | [Internet Explorer 14](http://8.136.99.126/user/100) | $\color{#808080}73$ |
+| $26$ | [C24liukaiwen](http://8.136.99.126/user/118) | $\color{#808080}59$ |
+| $27$ | [calgary](http://8.136.99.126/user/60) | $\color{#808080}55$ |
+| $27$ | [Drifty](http://8.136.99.126/user/13) | $\color{#808080}55$ |
