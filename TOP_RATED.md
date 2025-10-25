@@ -1,6 +1,6 @@
 | Rank | Username | Rating |
 | -: | -: | -: |
-| $1$ | [AI_Tester](http://8.136.99.126/user/104) | $\color{#ff0000}1032$ |
+| $1$ | [AI_Tester](http://8.136.99.126/user/7) | $\color{#ff0000}1032$ |
 | $2$ | [Murasame](http://8.136.99.126/user/20) | $\color{#ff0000}1030$ |
 | $3$ | [CuteChat](http://8.136.99.126/user/18) | $\color{#ff8000}692$ |
 | $4$ | [_l_l_](http://8.136.99.126/user/189) | $\color{#ff8000}611$ |
@@ -19,9 +19,9 @@
 | $14$ | [Qe不爱吃香菜](http://8.136.99.126/user/164) | $\color{#00c0c0}311$ |
 | $14$ | [chu_yh](http://8.136.99.126/user/111) | $\color{#00c0c0}311$ |
 | $14$ | [TBOI TECH](http://8.136.99.126/user/27) | $\color{#00c0c0}311$ |
-| $14$ | [i_Kirito](http://8.136.99.126/user/8) | $\color{#00c0c0}311$ |
+| $14$ | [i_Kirito](http://8.136.99.126/user/191) | $\color{#00c0c0}311$ |
 | $21$ | [Question_Mark](http://8.136.99.126/user/50) | $\color{#008000}290$ |
-| $22$ | [singing](http://8.136.99.126/user/152) | $\color{#008000}267$ |
+| $22$ | [upding](http://8.136.99.126/user/8) | $\color{#008000}267$ |
 | $23$ | [dzy1024](http://8.136.99.126/user/57) | $\color{#008000}250$ |
 | $24$ | [j27eGU](http://8.136.99.126/user/75) | $\color{#008000}243$ |
 | $25$ | [xor_bitset](http://8.136.99.126/user/114) | $\color{#008000}236$ |
