@@ -26,7 +26,7 @@
 | $24$ | [j27eGU](http://8.136.99.126/user/75) | $\color{#008000}243$ |
 | $25$ | [xor_bitset](http://8.136.99.126/user/114) | $\color{#008000}236$ |
 | $26$ | [koukilee](http://8.136.99.126/user/144) | $\color{#804000}188$ |
-| $27$ | [Dark_Space](http://8.136.99.126/user/206) | $\color{#804000}178$ |
+| $27$ | [Dark_Space](http://8.136.99.126/user/30) | $\color{#804000}178$ |
 | $27$ | [Fantasy_with_Light](http://8.136.99.126/user/48) | $\color{#804000}178$ |
 | $29$ | [GavinCQTD](http://8.136.99.126/user/77) | $\color{#804000}174$ |
 | $30$ | [wawatime](http://8.136.99.126/user/177) | $\color{#804000}156$ |
