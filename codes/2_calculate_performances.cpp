@@ -95,12 +95,12 @@ int main(int argc, char** argv)
 	for (int i = 1; i <= count; i++)
 	{
 		f2 << records[i].place << ' ' << records[i].uid << ' ';
-	printf("Rank %d (UID = %d): ", records[i].place, records[i].uid);
+		printf("Rank %d (UID = %d): ", records[i].place, records[i].uid);
 		long double ratio = log(records[i].place) / log(count + 1);
 		records[i].T = floor((records[1].S + 200) * (1 - ratio));
 		records[i].P = (records[i].S + records[i].T) / 2;
 		f2 << records[i].P << '\n';
-	printf("Performance is %d\n", records[i].P);
+		printf("Performance is %d\n", records[i].P);
 	}
 	f2.close();
 	return 0;
