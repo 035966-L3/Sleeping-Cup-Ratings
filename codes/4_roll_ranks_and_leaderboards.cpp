@@ -4,7 +4,7 @@
 using namespace std;
 const char* colors[8] =
 {
-	"808080", // Gray, 0 - 99
+	"808080", // Gray, 1 - 99
 	"804000", // Brown, 100 - 199
 	"008000", // Green, 200 - 299
 	"00c0c0", // Cyan, 300 - 399
