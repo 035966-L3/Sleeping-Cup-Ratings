@@ -2,15 +2,15 @@
 
 ## What is Sleeping Cup?
 
-This one: <http://8.136.99.126/>
+This one: <https://scg3.piaoztsdy.cn/>
 
 ## Are there any other useful links?
 
-Certainly: <https://github.com/035966-L3/Sleeping-Cup-Testcases>
+Certainly: <https://github.com/035966-L3/Sleeping-Cup-Test-Cases>
 
 ## How do you calculate the rating?
 
-Please refer to this: <http://8.136.99.126/blog/3/667ed5d1bfb9bd49c48885eb>
+Please refer to this: <https://scg3.piaoztsdy.cn/blog/3/667ed5d1bfb9bd49c48885eb>
 
 ## What's the code?
 
