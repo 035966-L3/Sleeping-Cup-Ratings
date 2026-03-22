@@ -10,7 +10,7 @@ def match(text):
 		return matched.group(1) + "\n"
 	else:
 		return None
-url = "http://8.136.99.126/user/"
+url = "https://scg3.piaoztsdy.cn/user/"
 users = 0
 with open("usernames.txt", "wb") as file:
 	while True:
