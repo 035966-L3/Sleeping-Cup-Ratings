@@ -86,7 +86,7 @@ int main()
 		const char* username = dict[uid].c_str();
 		const char* color = colors[min(rating / 100, 7)];
 		fprintf(f6, "| $%d$ | ", cur_place);
-		fprintf(f6, "[%s](http://8.136.99.126/user/%d)", username, uid);
+		fprintf(f6, "[%s](http://scg3.piaoztsdy.cn/user/%d)", username, uid);
 		fprintf(f6, " | $\\color{#%s}%d$ |\n", color, rating);
 		f5 << cur_place << ' ' << uid << ' ' << rating << '\n';
 		if (sort_agent.top().uid == -1) break;
