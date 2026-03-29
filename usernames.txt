@@ -279,5 +279,7 @@ Banned278
 wusheng_
 ZBLQZX
 Leitar
+testAcc
+RZOI_official
 
-// Updated at: 2026-03-22 02:34:59.520374+00:00
+// Updated at: 2026-03-29 00:02:17.647429+00:00
