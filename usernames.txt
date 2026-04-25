@@ -310,5 +310,8 @@ Banned309
 Banned310
 Banned311
 Banned312
+Banned313
+e_thinker
+gpy
 
 // Updated at: 2026-04-19 00:07:07.194525+00:00

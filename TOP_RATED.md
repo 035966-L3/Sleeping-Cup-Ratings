@@ -22,7 +22,7 @@
 | $14$ | [TBOI TECH](https://scg3.piaoztsdy.cn/user/27) | $\color{#00c0c0}311$ |
 | $21$ | [Question_Mark](https://scg3.piaoztsdy.cn/user/50) | $\color{#008000}290$ |
 | $22$ | [qwertim](https://scg3.piaoztsdy.cn/user/229) | $\color{#008000}269$ |
-| $23$ | [upding](https://scg3.piaoztsdy.cn/user/8) | $\color{#008000}267$ |
+| $23$ | [gpy](https://scg3.piaoztsdy.cn/user/315) | $\color{#008000}267$ |
 | $24$ | [dzy1024](https://scg3.piaoztsdy.cn/user/57) | $\color{#008000}250$ |
 | $25$ | [chenlinxuan0226](https://scg3.piaoztsdy.cn/user/175) | $\color{#008000}244$ |
 | $26$ | [j27eGU](https://scg3.piaoztsdy.cn/user/75) | $\color{#008000}243$ |
