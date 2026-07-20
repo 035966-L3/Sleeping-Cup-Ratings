@@ -7,18 +7,18 @@
 :: Note that the CSV file will be DELETED after running!
 
 :: COMMAND FORMAT:
-:: commands.bat [CONTEST_NAME] [CSV_FILENAME] [SPECIAL_RULES_"YES"/"NO"]
+:: commands.bat [IP] [CONTEST_NAME] [CSV_FILENAME] [SPECIAL_RULES_"YES"/"NO"]
 
 g++ 1_convert_csv_files.cpp -o 1_convert_csv_files
 g++ 2_calculate_performances.cpp -o 2_calculate_performances
 g++ 3_update_ratings_and_reports.cpp -o 3_update_ratings_and_reports
 g++ 4_roll_ranks_and_leaderboards.cpp -o 4_roll_ranks_and_leaderboards
-python ../fetch_usernames_irregularly.py
-1_convert_csv_files %1 %2
-2_calculate_performances %3
+python ../fetch_usernames_irregularly.py %1
+1_convert_csv_files %2 %3
+2_calculate_performances %4
 3_update_ratings_and_reports
 4_roll_ranks_and_leaderboards
 del *.txt
 del *.exe
-del %2
+del %3
 pause
