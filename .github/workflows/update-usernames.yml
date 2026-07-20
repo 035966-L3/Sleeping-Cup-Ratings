@@ -13,7 +13,7 @@ jobs:
       - name: Install lxml
         run: pip install lxml
       - name: Run fetch_usernames_regularly.py
-        run: python fetch_usernames_regularly.py
+        run: python fetch_usernames_regularly.py ${{ secrets.IP }}
       - name: Commit and push changes
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
