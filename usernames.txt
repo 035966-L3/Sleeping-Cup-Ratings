@@ -63,7 +63,7 @@ Banned62
 So_noSlack
 Banned64
 writer_xyz
-Silver_Lighting
+Silver_Darking
 Banned67
 Banned68
 wei1990913
@@ -335,5 +335,6 @@ Yhy001
 qyagzc
 wanyiheng
 NZK2013
+charly666
 
-// Updated at: 2026-08-02 01:15:30.496454+00:00
+// Updated at: 2026-08-02 16:51:58.256679+00:00
