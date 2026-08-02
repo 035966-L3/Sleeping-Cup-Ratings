@@ -60,7 +60,7 @@
 | $58$ | [So_noSlack](http://scg3.piaoztsdy.cn/user/63) | $\color{#808080}93$ |
 | $59$ | [Nexus](http://scg3.piaoztsdy.cn/user/173) | $\color{#808080}92$ |
 | $60$ | [Bizy](http://scg3.piaoztsdy.cn/user/242) | $\color{#808080}90$ |
-| $61$ | [Banned245](http://scg3.piaoztsdy.cn/user/245) | $\color{#808080}76$ |
+| $61$ | [JohnChiao75](http://scg3.piaoztsdy.cn/user/238) | $\color{#808080}76$ |
 | $62$ | [Cqou](http://scg3.piaoztsdy.cn/user/329) | $\color{#808080}70$ |
 | $62$ | [MuktorFM](http://scg3.piaoztsdy.cn/user/319) | $\color{#808080}70$ |
 | $64$ | [C24liukaiwen](http://scg3.piaoztsdy.cn/user/118) | $\color{#808080}65$ |
