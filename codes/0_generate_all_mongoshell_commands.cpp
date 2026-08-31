@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 	while (getline(cin, s)) t = t + s + "\n";
 	stringstream ss;
 	ss << t;
-	printf("db.domain.user.updateOne( { domainId: 'system', uid: %s }, { $set: { \"level\": 0 } } );\n", argv[1] + 8);
+	printf("db.domain.user.updateOne( { domainId: 'system', uid: %s, level: { $ne: 11 } }, { $set: { \"level\": 0 } } );\n", argv[1] + 8);
 	printf("db.domain.user.updateOne( { domainId: 'system', uid: %s }, { $set: { \"rp\": %s } } );\n", argv[1] + 8, u.c_str());
 	printf("db.domain.user.updateOne( { domainId: 'system', uid: %s }, { $set: { \"rpInfo.problem\": 0 } } );\n", argv[1] + 8);
 	printf("db.domain.user.updateOne( { domainId: 'system', uid: %s }, { $set: { \"rpInfo.contest\": %s } } );\n", argv[1] + 8, u.c_str());
