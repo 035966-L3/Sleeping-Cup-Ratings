@@ -2,7 +2,7 @@
 
 ## What is Sleeping Cup?
 
-This one: <https://scg3.piaoztsdy.cn/>
+This one: <http://scg4.touchfish.xin/>
 
 ## Are there any other useful links?
 
